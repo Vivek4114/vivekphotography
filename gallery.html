@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gallery | VD PhotoStudio</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#"><b style="color: hsl(236, 100%, 51%);"><i>VD PHOTO STUDIO</i></b></a>
+        <button class="navbar-toggler collapsed" style="background-color: hsl(236, 100%, 51%); color: white;" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="navbar-collapse collapse" id="navbarsExample01" style="">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="text-transform: capitalize; color: indigo;" href="index.html"><b>Home</b> <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active" >
+              <a class="nav-link" style="text-transform: capitalize; color: indigo;" href="about.html"><b>About</b></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " style="text-transform: capitalize; color: indigo;" href="services.html"><b>Services</b></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " style="text-transform: capitalize; color: indigo;" href="blog.html"><b>Blog</b></a>
+          </li>
+            <li class="nav-item active">
+                <a class="nav-link " style="text-transform: capitalize; color: indigo;" href="gallery.html"><b>Gallery</b></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Gallery Section -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 text-center mb-4">
+          <h2 class="font-weight-bold text-primary">Our Gallery</h2>
+          <p class="text-muted">Explore our photography work from different categories.</p>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="row">
+        <!-- Gallery Item 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="galllery/wed.jpg" class="card-img-top" alt="Wedding Photography" data-toggle="modal" data-target="#imageModal" onclick="openModal('wedding1.jpg')">
+          </div>
+        </div>
+
+        <!-- Gallery Item 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="galllery/eng.avif" class="card-img-top" alt="Engagement Photography" data-toggle="modal" data-target="#imageModal" onclick="openModal('engagement1.jpg')">
+          </div>
+        </div>
+
+        <!-- Gallery Item 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="galllery/birthdayphoto.jpg" class="card-img-top" alt="Birthday Photography" data-toggle="modal" data-target="#imageModal" onclick="openModal('birthday1.jpg')">
+          </div>
+        </div>
+
+        <!-- Gallery Item 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="galllery/family.jpg" class="card-img-top" alt="Family Photography" data-toggle="modal" data-target="#imageModal" onclick="openModal('family1.jpg')">
+          </div>
+        </div>
+
+        <!-- Gallery Item 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="galllery/event.jpg" class="card-img-top" alt="Event Photography" data-toggle="modal" data-target="#imageModal" onclick="openModal('event1.jpg')">
+          </div>
+        </div>
+
+        <!-- Gallery Item 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="galllery/offical.jpg" class="card-img-top" alt="Official Photography" data-toggle="modal" data-target="#imageModal" onclick="openModal('official1.jpg')">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="" id="modalImage" class="img-fluid" alt="Gallery Image">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="your-logo.png" alt="Company Logo" class="footer-logo mb-3" style="max-width: 150px;">
+            <p>V D photo Studio </p>
+        <p>Dhule complex, 123 ,  near by Dr. B. R .Ambedkar Statue, jayBhim nagar, Taroda (445211), Umarkhed </p>
+
+          </div>
+          <div class="col-md-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Home</a></li>
+              <li><a href="#" class="text-white">About Us</a></li>
+              <li><a href="#" class="text-white">Services</a></li>
+              <li><a href="#" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Follow Us</h5>
+            <div class="social-icons">
+              <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com" target="_blank" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+              <a href="https://linkedin.com" target="_blank" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h5>Photographer</h5>
+            <p>Photo by: <strong>Vivek Dhule</strong></p>
+          </div>
+        </div>
+        <hr class="border-light">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>&copy; 2025 Company Name. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <script>
+      // Function to open the modal with the selected image
+      function openModal(imageSrc) {
+        document.getElementById('modalImage').src = imageSrc;
+      }
+    </script>
+  </body>
+</html>
